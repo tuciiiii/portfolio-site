@@ -76,4 +76,7 @@ body {
     text-decoration: underline;
   }
   
+  nav a.active {
+    border-bottom: 2px solid white;
+  }
   

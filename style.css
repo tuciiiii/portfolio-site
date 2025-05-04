@@ -1,4 +1,4 @@
-/* Fonts and Reset */
+/* Reset and Base Styling */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Poppins', sans-serif;
-    background: #fff5fa;
+    background-color: #fff6fa;  /* very soft pink */
     color: #333;
     line-height: 1.6;
     padding: 0 1rem;
@@ -15,13 +15,11 @@
   
   /* Header */
   header {
-    background: #ff4da6;
-    color: white;
+    background-color: #ffc1e3;  /* light pink */
+    color: #4a004a;
     padding: 2rem 0;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    border-bottom: 2px solid #ffd6eb;
   }
   
   header h1 {
@@ -30,57 +28,57 @@
   }
   
   nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+    color: #4a004a;
+    margin: 0 12px;
     font-weight: 500;
-    transition: opacity 0.3s ease;
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
   
   nav a:hover {
-    opacity: 0.8;
+    color: #cc007a;
   }
   
   /* Sections */
   section {
-    max-width: 900px;
+    max-width: 800px;
     margin: 2rem auto;
-    background: white;
+    background: #ffffff;
     padding: 2rem;
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(255, 105, 180, 0.15);
+    box-shadow: 0 4px 12px rgba(255, 192, 203, 0.2);
   }
   
   h2 {
     color: #d63384;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.75rem;
   }
   
   /* Project Cards */
   .project {
-    border-left: 4px solid #ff80bf;
+    background-color: #ffe6f2;
+    border-left: 5px solid #ff99cc;
     padding: 1rem 1.5rem;
-    background: #ffe6f0;
     border-radius: 12px;
     margin-bottom: 1.5rem;
-    transition: transform 0.2s ease;
+    transition: box-shadow 0.2s ease;
   }
   
   .project:hover {
-    transform: translateY(-3px);
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.25);
   }
   
   .project h3 {
-    margin-bottom: 0.5rem;
     color: #cc007a;
+    margin-bottom: 0.4rem;
   }
   
-  /* Contact Section */
+  /* Contact Links */
   #contact a {
-    color: #cc007a;
-    font-weight: 500;
+    color: #b30059;
     text-decoration: none;
+    font-weight: 500;
   }
   
   #contact a:hover {
@@ -91,9 +89,8 @@
   footer {
     text-align: center;
     padding: 1.5rem 0;
-    margin-top: 3rem;
-    color: #999;
     font-size: 0.9rem;
+    color: #888;
+    margin-top: 3rem;
   }
-  
   

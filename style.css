@@ -15,8 +15,8 @@
   
   /* Header */
   header {
-    background-color: #ffc1e3;  /* light pink */
-    color: #4a004a;
+    background-color: #fff0f6; 
+    color:  #cc007a;
     padding: 2rem 0;
     text-align: center;
     border-bottom: 2px solid #ffd6eb;
@@ -28,7 +28,7 @@
   }
   
   nav a {
-    color: #4a004a;
+    color:  #cc007a;
     margin: 0 12px;
     font-weight: 500;
     text-decoration: none;

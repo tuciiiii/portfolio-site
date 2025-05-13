@@ -1,4 +1,3 @@
-/* Reset and Base Styling */
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +6,12 @@
   
   body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fff6fa;  /* very soft pink */
+    background-color: #fff6fa;  
     color: #333;
     line-height: 1.6;
     padding: 0 1rem;
   }
   
-  /* Header */
   header {
     background-color: #fff0f6; 
     color:  #cc007a;
@@ -39,7 +37,6 @@
     color: #cc007a;
   }
   
-  /* Sections */
   section {
     max-width: 800px;
     margin: 2rem auto;
@@ -55,7 +52,6 @@
     font-size: 1.75rem;
   }
   
-  /* Project Cards */
   .project {
     background: #fff0f6;
     border-left: 4px solid #ff80bf;
@@ -85,7 +81,6 @@
   }
   
   
-  /* Contact Links */
   #contact a {
     color: #b30059;
     text-decoration: none;
@@ -96,7 +91,6 @@
     text-decoration: underline;
   }
   
-  /* Footer */
   footer {
     text-align: center;
     padding: 1.5rem 0;
